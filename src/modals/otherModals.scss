@@ -1,0 +1,111 @@
+// MESSAGE DELETION CONFIRMATION
+%themeDark .message-2qRu38 {
+	background-color: transparent;
+	box-shadow: 0 0 2px 2px var(--main-color);
+}
+
+// NOTIFICATIONS SETTINGS
+.searchInput-5YMkDH {background-color: transparent;}
+%themeDark .override-2YgiXd:hover {border-color: $main-color;}
+.option-3KoAJB.focused-1T6PE5 {background: var(--hover-color);}
+
+// CUSTOM STATUS CLEAR AFTER DURATION
+.option-3KoAJB:focus, .option-3KoAJB:hover {
+	background-color: var(--hover-color);
+}
+.selectedIcon-3uS11H {
+	color: var(--interactive-active);
+}
+.lookFilled-22uAsw {
+	&.select-2fjwPw {
+		background-color: rgba(255,255,255,0.05);
+	}
+}
+.popout-VcNcHB {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: none;
+	border-radius: 4px;
+}
+.option-3KoAJB[aria-selected=true] {
+	background-color: var(--main-color);
+}
+
+// REACTIONS LIST
+%themeDark {
+	.scroller-1-nKid,
+	.reactors-Blmlhw {
+		background-color: transparent;
+	}
+	.reactionDefault-GBA58K {
+		margin-bottom: 10px;
+	}
+	.reactionSelected-1pqISm {
+		background-color: var(--main-color);
+		margin-bottom: 10px;
+		.colorStandard-2KCXvj {
+			color: #fff;
+		}
+	}
+}
+
+// CHANGE IDENTITY
+.upsellCard-11CKVn {
+	background-color: transparent;
+}
+
+// QUICKSWITCHER
+.quickswitcher-3JagVE {background-color: rgba(0,0,0,0.5);}
+.input-2VB9rf {background-color: rgba(255,255,255,0.07);}
+.scroller-zPkAnE {
+	background-color: transparent;
+	margin-top: 10px;
+	&::-webkit-scrollbar-track {
+		background-color: transparent !important;
+	}
+}
+
+// DISCORD NITRO GIFT PAYMENT
+.table-39R0Oe {background-color: transparent;}
+.paymentSourceWrapper-2dIzE4 .lookFilled-1h1y05.select-1Pkeg4 {margin: 0 2px;}
+
+// INVITE FROM WEB BROWSER
+%themeDark .contentWrapper-3WC1ID {
+	background: hsla(0, 0%, 0%, .5);
+}
+.pillIconOnline-2JGlqR {
+	background-color: var(--online-color);
+}
+.pillIconTotal-1BqTcA {
+	background-color: var(--offline-color);
+}
+
+// INVITE MODAL
+.inviteRow-2L02ae:hover {
+	background-color: rgba(255,255,255,.07);
+}
+
+// CREATE EVENT
+.progressBar-37uLmT {
+    background-color: hsla(0, 0%, 100%, .3);
+    &.selectedProgressBar-1Z4WVU {
+        background-color: var(--main-color);
+    }
+    +.colorMuted-HdFt4q {
+        color: hsla(0, 0%, 100%, .3);
+    }
+    +.colorBrand-2tjs5J {
+        color: var(--main-color);
+    }
+}
+%themeDark .previewCard-2AKKVB {
+	background-color: hsla(0, 0%, 0%, .4);
+}
+.rsvpCount-1Qtgtr {
+	background-color: var(--main-color);
+}
+.rsvpIcon-32ixCJ {
+	color: #fff;;
+}
+.eventStatusBrand-1RBas5 {
+	color: var(--main-color);
+}
