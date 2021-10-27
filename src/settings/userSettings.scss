@@ -1,0 +1,234 @@
+/* USER SETTINGS */
+
+// MY ACCOUNT
+.accountProfileCard-1XCH88 {
+	background-color: rgba(0,0,0,0.4);
+}
+.background-1QDuV2,
+.fieldList-21DyL8 {
+	background-color: transparent;
+}
+.avatar-1uQSZT {
+    background: transparent;
+    border-color: transparent;
+}
+
+// USER PROFILE
+.profileBannerPreview-3_l0Wd {
+    background-color: cv("bg.popout.overlay");
+    > %userPopoutHeaderTop {
+        background: transparent;
+    }
+}
+.avatarUploaderInner-Oiob_P {
+    background-color: transparent;
+    border: none;
+}
+.optionBox-1b4n4P {
+	background-color: transparent;
+	border-color: rgba(255,255,255,0.1);
+    &:hover {
+        border-color: $main-color;
+    }
+}
+.contentCircle-2uR76y {
+	background-color: $main-color;
+}
+
+// PRIVACY AND SAFETY
+
+// AUTHORIZED APPS
+.authedApp-mj2Hmd {
+    background-color: rgba(0, 0, 0, .4);
+    border-color: hsla(0, 0%, 100%, .07);
+}
+
+// CONNECTIONS
+.accountList-33MS45 {
+    background-color: rgba(0, 0, 0, .4);
+    border-color: hsla(0, 0%, 100%, .07);
+    .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+        background-color: hsla(0, 0%,100%,.05);
+        &:hover {
+            background-color: hsla(0, 0%,100%,.07);
+        }
+    }
+}
+
+// BILLING
+%themeDark {
+    .paymentPane-3bwJ6A,
+    .paginator-166-09 {
+        background-color: transparent;        
+    }
+    .bottomDivider-1K9Gao {
+        border-color: rgba(0,0,0,.07);
+    }
+    .hoverablePayment-Yc6mK7 {
+        &:hover {
+            background-color: rgba(255,255,255,.05);
+        }
+    }
+    .payment-xT17Mq {
+        background-color: transparent;
+        &:not(.hoverablePayment-Yc6mK7) {
+            background-color: hsla(0, 0%, 0%, .4);
+        }
+    }
+    .expandedInfo-3kfShd {
+        background-color: transparent;
+        box-shadow: 0 0 2px 2px $main-color;
+    }
+    .codeRedemptionRedirect-1wVR4b {
+        background-color: rgba(0, 0, 0, .4);
+        border-color: hsla(0, 0%, 100%, .07);
+    }
+}
+
+// DISCORD NITRO
+%themeDark {
+	.feature-2w65J5 {
+		background-color: rgba(0,0,0,0.4);
+	}
+}
+
+// SUBSCRIPTIONS
+%themeDark {
+    .noItemsIcon-21jJYT,
+    .noItemsIcon-ygEH8z {
+        background-color: transparent;
+        >g>* {
+            fill-opacity: .8 !important;
+            stroke-opacity: .8 !important;
+        }
+    }
+} 
+.scroller-9moviB {
+    background-color: transparent;
+}
+.detailsBlock-FoDTGA,
+.banner-WELp4M {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+// GIFT INVENTORY
+
+// SERVER BOOST
+.cardWrapper-2Min21 {
+    background-color: transparent;
+}
+%themeDark {
+    .gemIndicatorContainer-2jdECl {
+        background-color: transparent;
+    }
+}
+
+// HYPESQUAD
+
+// ACCESSIBILITY
+%accessibilityMessagePreview {
+    background-color: hsla(0, 0%, 0%, 0.00);
+}
+
+// VOICE
+%themeDark {
+    %userSettingsVoice {
+        %micTestContainer {
+            background-color: $main-color !important;
+        }
+        %micTestProgress {
+            background-color: hsla(0, 0%, 0%, .7);
+        }
+        %micTestNotches {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='rgba(0,0,0,.8)'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+        }
+        %inputSensitivitySliderBar {
+            &%inputSensitivitySpeaking {
+                background: var(--main-color) !important;
+            }
+        }
+    }
+}
+
+// VIDEO
+%cameraWrapper {
+    background-color: rgba(0, 0, 0, .7);
+    border-color: hsla(0, 0%,100%,.07);
+}
+%userSettingsVoice %mediaEngineVideo {
+    background-color: rgba(0, 0, 0, .4);
+}
+%videoBgOption {
+    background-color: rgba(0, 0, 0, .7);
+}
+%videoBgOptionSelected {
+    border: 2px solid $main-color;
+}
+
+// GAME OVERLAY
+.wrapper-3jrx9n {
+    border-color: $main-color;
+}
+.option-n0icdO {
+    background-color: hsla(0, 0%,100%,.05);
+    opacity: 1;
+    &:hover {
+        background-color: hsla(0, 0%,100%,.07);
+        opacity: 1;
+    }
+    &.selected-mKYnfr {
+        background-color: $main-color;
+        border-color: $main-color;
+    }
+}
+
+// KEYBINDS
+%themeDark {
+    .container-1nZlH6 {
+        background-color: hsla(0, 0%, 100%, .05);
+        box-shadow: 0 0 0 2px hsla(0, 0%, 100%, .07);
+        border-color: transparent;
+        &:not(.disabled-29eJ21):hover {
+            border-color: transparent;
+	        box-shadow: 0 0 2px 2px var(--main-color);
+        }
+        &.recording-1H2dS7 {
+            color: #fff;
+            box-shadow: 0 0 2px 2px var(--main-color);
+            animation: cv-shadow-pulse 1s ease-in infinite;
+        }
+    }
+}
+
+// ACTIVITY STATUS
+%themeDark {
+    .notDetected-33MY4s {
+        background-color: hsla(0, 0%, 0%, .4);
+        border: hsla(0, 0%, 100%, .07);
+    }
+    .lookLink-9FtZy-.colorLink-35jkBc {
+        color: $main-color;
+        &:hover .contents-18-Yxp {
+            background-image: none;
+            text-decoration: underline;
+        }
+    }
+    .addGamePopout-2RY8Ju {
+        background-color: hsla(0, 0%, 0%, .7);
+    }
+    .css-rzbxvl-option {
+        background-color: $hover-color;
+        color: #fff;
+    }
+
+    .game-1ipmAa {
+        box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04);
+    }
+    .gameNameInput-385LoS {
+        &:hover,
+        &:focus {
+            background-color: hsla(0, 0%,100%,.05);
+            border: hsla(0, 0%, 100%, .07);
+        }
+    }
+}
